@@ -2,6 +2,8 @@
   "name": "@cush/relative",
   "version": "0.0.1",
   "main": "lib/relative.js",
+  "license": "MIT",
+  "repository": "https://github.com/aleclarson/relative.git",
   "scripts": {
     "build": "coffee-build src -o lib",
     "prepublishOnly": "prepv -i || true"
