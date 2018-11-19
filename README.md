@@ -1,4 +1,4 @@
-# relative v0.0.1
+# relative v0.1.0
 
 [![npm](https://img.shields.io/npm/v/@cush/relative.svg)](https://www.npmjs.com/package/@cush/relative)
 [![Bundle size](https://badgen.net/bundlephobia/min/@cush/relative)](https://bundlephobia.com/result?p=@cush/relative)
