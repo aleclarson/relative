@@ -1,5 +1,10 @@
 # relative v0.0.1
 
+[![npm](https://img.shields.io/npm/v/@cush/relative.svg)](https://www.npmjs.com/package/@cush/relative)
+[![Bundle size](https://badgen.net/bundlephobia/min/@cush/relative)](https://bundlephobia.com/result?p=@cush/relative)
+[![Install size](https://packagephobia.now.sh/badge?p=@cush/relative)](https://packagephobia.now.sh/result?p=@cush/relative)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/alecdotbiz)
+
 Ultra fast relative path resolver ⚡️
 
 ```js
