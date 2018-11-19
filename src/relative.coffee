@@ -28,6 +28,7 @@ relative = (file, ref) ->
   # invalid path
   else null
 
+Object.defineProperty relative, 'default', {value: relative}
 module.exports = relative
 
 join = (a, b) ->
