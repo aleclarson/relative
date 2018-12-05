@@ -14,9 +14,9 @@
     "prepublishOnly": "prepv -i || true"
   },
   "devDependencies": {
-    "coffeescript": "^2.3.0",
-    "testpass": "^0.9.3",
-    "wch-coffee": "^0.2.0"
+    "coffeescript": "2.3.2",
+    "testpass": "0.9.5",
+    "wch-coffee": "0.2.0"
   },
   "keywords": [
     "path",
