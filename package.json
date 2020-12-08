@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "coffeescript": "2.3.2",
-    "testpass": "0.9.5",
+    "testpass": "0.9.11",
     "wch-coffee": "0.2.0"
   },
   "keywords": [
