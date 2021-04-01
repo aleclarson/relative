@@ -27,8 +27,8 @@ function relativeRegex(file: string, ref: string) {
   return null // invalid path
 }
 
-function join(a: string, b: string) {
-  return b ? a ? a + '/' + b : b : a
+function join(a: string | null, b: string) {
+  return b ? (a ? (a == '/' ? a : a + '/') + b : b) : a
 }
 
 /**
