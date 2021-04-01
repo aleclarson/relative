@@ -4,6 +4,7 @@
   "license": "MIT",
   "description": "Fast relative path resolution",
   "repository": "https://github.com/aleclarson/relative.git",
+  "prettier": "@alloc/prettier-config",
   "main": "lib/relative.js",
   "files": [
     "lib",
@@ -14,7 +15,9 @@
     "prepublishOnly": "prepv -i || true"
   },
   "devDependencies": {
+    "@alloc/prettier-config": "^1.0.0",
     "coffeescript": "^2.3.0",
+    "prettier": "^2.2.1",
     "testpass": "^0.9.3",
     "wch-coffee": "^0.2.0"
   },
