@@ -8,7 +8,7 @@
   "main": "lib/relative.js",
   "files": [
     "lib",
-    "index.d.ts"
+    "src"
   ],
   "scripts": {
     "build": "tsc -p .",
