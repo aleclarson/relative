@@ -4,7 +4,7 @@ const cousinRE = /^((?:\.\.\/)+)(.+)?$/
 /**
  * Resolve `ref` relative to `file` (not a directory).
  *
- * The `ref` must begin with `./` or `../`
+ * The `ref` must begin with `./` or `../` or equal `.` or `..`
  */
 export function relative(file: string, ref: string) {
   return ref.length == 1
