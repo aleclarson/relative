@@ -45,9 +45,9 @@ function dirname(file: string, n: number) {
   } else {
     i = file.length
     while (--n >= 0) {
-      i = file.lastIndexOf('/', i - 1)
+      i = i ? file.lastIndexOf('/', i - 1) : -1
       if (i < 0) {
-        return n ? null : ''
+        return n || file[0] == '/' ? null : ''
       }
     }
   }
