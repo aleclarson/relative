@@ -11,15 +11,14 @@
     "index.d.ts"
   ],
   "scripts": {
-    "build": "coffee-build src -o lib",
-    "prepublishOnly": "prepv -i || true"
+    "build": "tsc -p .",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@alloc/prettier-config": "^1.0.0",
-    "coffeescript": "^2.3.0",
     "prettier": "^2.2.1",
     "testpass": "^0.9.3",
-    "wch-coffee": "^0.2.0"
+    "typescript": "^4.2.3"
   },
   "keywords": [
     "path",
