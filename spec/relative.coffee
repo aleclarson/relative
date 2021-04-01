@@ -1,6 +1,6 @@
 {test} = require 'testpass'
 
-relative = require '..'
+{relative} = require '..'
 
 # relative to 'x/x/x'
 cases =
